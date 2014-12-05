@@ -19,6 +19,7 @@ stderr and stdout of `go` will be redirected to GoBuildAll
 
 so you can just run `gobuildall build` as usual
 
+currently, if you run `gobuildall` other than `gobuildall build` , it will run `go` with the same parameters directly
  
 
 sample project.ini
