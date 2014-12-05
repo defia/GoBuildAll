@@ -67,11 +67,10 @@ func GetGOPATH() PATHS {
 	return PATHS(strs)
 
 }
-func (p *PATHS) Include(dir string) bool {
-	strs := []string(*p)
+func (p PATHS) Include(dir string) bool {
 
-	for i := range strs {
-		if strs[i] == dir {
+	for i := range p {
+		if p[i] == dir {
 			return true
 		}
 	}
