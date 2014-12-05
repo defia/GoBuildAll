@@ -7,7 +7,7 @@ build main packages when you build sub packages
 as we know, `go build` command onlyubuilds package in current directory
 and in liteide, when editing a file of sub package, press ctrl-b only rebuilds the sub package, until you press ctrl-b in the editor of any file of main package.
 
- `gobuildall`  will search  `project.ini` in parent directory recursively ,until reach your project root (eg. `$GOPATH\src\myproject\projcet.ini`)
+ `gobuildall`  will search for `project.ini` in current folder,and then in parent folder , recursively , until reach your project root (eg. `$GOPATH\src\myproject\projcet.ini`)
 
 if  `gobuildall`  didn't find `project.ini`, it will work just as `go`
 
