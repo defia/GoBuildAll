@@ -29,7 +29,7 @@ sample project.ini
 
 				[client]
 				c:\\workspace\\src\\project\\client
-				
+				#pay attention that in windows,folder splitter is not \
 				[server]
 				c:\\workspace\\src\\project\\server
 				
